@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
     <!-- Link to the CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,6 +27,32 @@
     <img src="https://acteurspublics.fr/media/be2e34566a427859cb30c7a9c3062b8d8140f1a2.png" alt="Luc andre">
 
     <img src="https://th.bing.com/th/id/OIP.l1exkyS9qYF3KY12TaBLVQAAAA?w=202&h=202&c=7&r=0&o=7&dpr=2&pid=1.7&rm=3" alt="Catherine Dumortier">
+
+    <img src="https://www.daf-mag.fr/wp-content/uploads/2025/08/Hugues-Magron-Deloitte-F.jpg" alt="Hugues Magron">
+
+    <nav class="flex-row-space-between">
+        <h1> Shoe Gallery</h1>
+
+        <ul class="flex-row-space-between">
+            <li>Men</li>
+            <li>Women</li>
+            <li>Brands</li>
+            <li> Cart <i data-lucide="shopping-cart"></i></li>
+        </ul>
+    </nav>
+
+    <button popovertarget="my-popup">click me</button>
+
+    <div popover id="my-popup">
+        <p>Le papa de simon aime les hommes. Le papa de grégoire aime les enfants.</p>
+    </div>
+
+    <!-- Include Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
 
 </body>
 </html>
